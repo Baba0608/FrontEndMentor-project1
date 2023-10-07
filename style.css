@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightsteelblue;
+}
+
+.content{
+    margin: 8% 15% 0 15%;
+    border-radius: 10px;
+    box-shadow: 2px 0px 10px rgba(0,0,0,.4);
+    
+    
+}
+
+.main{
+    min-height: 25vh;
+    padding: 20px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main h1{
+    margin: 10px 0px;
+    color: hsl(179, 62%, 43%);
+}
+
+.guarantee h2{
+    margin-bottom: 15px;
+    color: hsl(71, 73%, 54%);
+}
+
+.subscription-why{
+    min-height: 40vh;
+    display: flex;
+    color: white;
+    
+    
+}
+
+.subscription , .why{
+    width: 50vw;
+
+}
+
+.subscription{
+    background-color: hsl(179, 62%, 43%);
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.dollar p{
+    padding: 10px;
+}
+
+#value{
+    font-size: 30px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 10px;
+}
+.why{
+    background-color: hsl(179, 78%, 63%);
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.why h2{
+    margin-top: 20px;
+}
+
+.why ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.why ul li{
+    padding: 2px 0px;
+}
+
+footer{
+    margin-top: 10px;
+}
+
+.attribution{
+    font-size: 13px;
+}
+
+
+@media (max-width:600px){
+
+    .content{
+        margin: 4% 8% 0 8%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscription-why{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subscription{
+        border-radius: 0;
+    }
+
+    .why{
+        border-bottom-left-radius: 10px;
+    }
+
+    .subscription , .why{
+
+        width: 100%;
+    }
+
+}
